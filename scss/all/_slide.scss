@@ -63,3 +63,21 @@
     }
   }
 }
+
+.swiperr {  
+  position: relative;
+  width: 500px;
+  height: 600px;
+  overflow: hidden;
+
+  .swiper-wrapper{
+    .swiper-slide{
+      border-radius: 4px;
+      background: var(--Secondary, #F5F5F5);
+       img{
+        margin-top: 154px;
+        padding: 0 27px;
+       }
+    }
+  }
+}
