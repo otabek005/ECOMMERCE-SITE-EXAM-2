@@ -111,6 +111,27 @@ nav{
 
             .header-bottom-user-panel{
                 .logo:hover{
+
+                    a{
+                        background-color: #DB4444;
+                        border-radius: 100%;
+                        span{
+                            svg{
+                                path{
+                                    stroke: white;
+                                }
+                            }
+                        }
+                    }
+
+                    .ul-panel{
+                        li{
+                            a{
+                                background-color: transparent;
+                            }
+                        }
+                    }
+
                     .ul-panel{
                         display: block;
                         z-index: 5;
