@@ -1,0 +1,261 @@
+footer{
+    padding: 70px 0;
+    background: #000000;
+}
+
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    gap: 87px;
+
+    .foter1{
+        width: 217px;
+        li:nth-child(1){
+            a{
+                color: var(--Text, #FAFAFA);
+                font-size: 24px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 24px; /* 100% */
+                letter-spacing: 0.72px;
+            }
+            margin-bottom: 24px;
+        }
+        li:nth-child(2){
+            a{
+                color: var(--Text, #FAFAFA);
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 28px; /* 140% */
+            }
+        }
+        li:nth-child(3){
+            margin-top: 24px;
+            color: var(--Text, #FAFAFA);
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 24px; /* 150% */
+            margin-bottom: 16px;
+        }
+
+        li:nth-child(4){
+            display: flex;
+            align-items: center;
+            input{
+                padding: 12px 16px;
+                width: 217px;
+                background-color: transparent;
+                border: none;
+                color: white;
+            }
+        }
+    }
+
+    .foter2{
+        width: 175px;
+        li:nth-child(1){
+            a{
+                color: var(--Text, #FAFAFA);
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 28px; /* 140% */
+            }
+            margin-bottom: 24px;
+        }
+        li:nth-child(2){
+           a{
+            color: var(--Text, #FAFAFA);
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 24px; /* 150% */
+           }
+           margin-bottom: 16px;
+        }
+        li:nth-child(3){
+           a{
+            color: var(--Text, #FAFAFA);
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 24px; /* 150% */
+           }
+           margin-bottom: 16px;
+        }
+
+        li:nth-child(4){
+            a{
+                color: var(--Text, #FAFAFA);
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 24px; /* 150% */
+            }
+        }
+    }
+
+    .foter3{
+        width: 123px !important;
+        li:nth-child(1){
+            a{
+                color: var(--Text, #FAFAFA);
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 28px; /* 140% */
+            }
+            margin-bottom: 24px;
+        }
+        li:nth-child(2){
+           a{
+            color: var(--Text, #FAFAFA);
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 24px; /* 150% */
+           }
+           margin-bottom: 16px;
+        }
+        li:nth-child(3){
+            width: 123px;
+           a{
+            color: var(--Text, #FAFAFA);
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 24px; /* 150% */
+           }
+           margin-bottom: 16px;
+        }
+        li:nth-child(4){
+            a{
+             color: var(--Text, #FAFAFA);
+             font-size: 16px;
+             font-style: normal;
+             font-weight: 400;
+             line-height: 24px; /* 150% */
+            }
+            margin-bottom: 16px;
+         }
+         li:nth-child(5){
+            a{
+             color: var(--Text, #FAFAFA);
+             font-size: 16px;
+             font-style: normal;
+             font-weight: 400;
+             line-height: 24px; /* 150% */
+            }
+            margin-bottom: 16px;
+         }
+         li:nth-child(6){
+            a{
+             color: var(--Text, #FAFAFA);
+             font-size: 16px;
+             font-style: normal;
+             font-weight: 400;
+             line-height: 24px; /* 150% */
+            }
+            margin-bottom: 16px;
+         }
+    }
+
+    .foter4{
+        width: 121px;
+        li:nth-child(1){
+            a{
+                color: var(--Text, #FAFAFA);
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 28px; /* 140% */
+            }
+            margin-bottom: 24px;
+        }
+        li:nth-child(2){
+           a{
+            color: var(--Text, #FAFAFA);
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 24px; /* 150% */
+           }
+           margin-bottom: 16px;
+        }
+        li:nth-child(3){
+            width: 123px;
+           a{
+            color: var(--Text, #FAFAFA);
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 24px; /* 150% */
+           }
+           margin-bottom: 16px;
+        }
+        li:nth-child(4){
+            a{
+             color: var(--Text, #FAFAFA);
+             font-size: 16px;
+             font-style: normal;
+             font-weight: 400;
+             line-height: 24px; /* 150% */
+            }
+            margin-bottom: 16px;
+         }
+         li:nth-child(5){
+            a{
+             color: var(--Text, #FAFAFA);
+             font-size: 16px;
+             font-style: normal;
+             font-weight: 400;
+             line-height: 24px; /* 150% */
+            }
+            margin-bottom: 16px;
+         }
+    }
+
+    .foter5{
+        width: 194px;
+            h2{
+                color: var(--Text, #FAFAFA);
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 28px; /* 140% */
+                margin-bottom: 24px;
+            }
+
+            p{
+                width: 194px;               
+                color: var(--Text, #FAFAFA);
+                font-size: 12px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 18px; /* 150% */
+                margin-bottom: 8px;
+            }
+
+            div{
+                display: flex;
+                gap: 8px;
+                cursor: pointer;
+                margin-bottom: 24px;
+                height: 76px;
+
+                div{
+                    display: flex;
+                    flex-direction: column;
+                }
+            }
+
+            ul{
+                display: flex;
+                gap: 24px;
+            }
+        
+    }
+}

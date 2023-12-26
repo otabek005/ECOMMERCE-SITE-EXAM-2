@@ -1,0 +1,204 @@
+.arrival-wrapper{
+    margin-bottom: 140px;
+    margin-top: 60px;
+    display: grid;
+    gap: 30px;
+    grid-template-columns: 270px 270px 270px 270px;
+    grid-template-rows:  284px 284px;
+    grid-template-areas:
+    "playstation playstation Women Women"
+    "playstation playstation Speakers Perfume"
+    ;
+
+    .arrival-item1{
+        background: #000;
+        grid-area: playstation;
+        position: relative;   
+        
+        img{
+            position: absolute;
+            right: 0;
+            bottom: 0;
+        }
+        h3{
+            position: absolute;
+            color: var(--Text, #FAFAFA);
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 24px; /* 100% */
+            letter-spacing: 0.72px;
+            top: 446px;
+            left: 32px;
+            margin-bottom: 16px;
+        }
+
+        p{
+            position: absolute;
+            width: 242px;
+            color: #FAFAFA;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 21px; /* 150% */
+            top: 486px;
+            left: 32px;
+        }
+
+        a{
+            position: absolute;
+            color: #FFF;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 24px; /* 150% */
+            top: 544px;
+            left: 32px;
+            border-bottom: 1px solid white;
+        }
+        
+    }
+
+    .arrival-item2{
+        background: #000;
+        grid-area: Women;
+        position: relative;
+
+        img{
+            position: absolute;
+            right: 0;
+            bottom: 0;
+        }
+       
+        h3{
+                position: absolute;
+                color: var(--Text, #FAFAFA);
+                font-size: 24px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 24px; /* 100% */
+                letter-spacing: 0.72px;
+                top: 138px;
+                left: 24px;
+        }
+
+        p{
+            position: absolute;
+            width: 242px;
+            color: #FAFAFA;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 21px; /* 150% */
+            top: 178px;
+            left: 24px;
+        }
+        
+        a{
+            position: absolute;
+            color: #FFF;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 24px; /* 150% */
+            top: 236px;
+            left: 24px;
+            border-bottom: 1px solid white;
+        }
+    }
+
+    .arrival-item3{
+        background: #000;
+        grid-area: Speakers;
+        position: relative; 
+        
+        img{
+            position: absolute;
+            right: 40px;
+            top: 31px;
+        }
+        h3{
+            position: absolute;
+            color: var(--Text, #FAFAFA);
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 24px; /* 100% */
+            letter-spacing: 0.72px;
+            top: 175px;
+            left: 24px;
+            margin-bottom: 16px;
+         }
+
+        p{
+        position: absolute;
+        width: 242px;
+        color: #FAFAFA;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 21px; /* 150% */
+        top: 207px;
+        left: 24px;
+        }
+    
+        a{
+            position: absolute;
+            color: #FFF;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 24px; /* 150% */
+            top: 236px;
+            left: 24px;
+            border-bottom: 1px solid white;
+        }
+    }
+
+    .arrival-item4{
+        background: #000;
+        grid-area: Perfume;
+        position: relative;
+        img{
+            position: absolute;
+            right: 35px;
+            top: 38px;
+        }
+        h3{
+            position: absolute;
+            color: var(--Text, #FAFAFA);
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 24px; /* 100% */
+            letter-spacing: 0.72px;
+            top: 175px;
+            left: 24px;
+            margin-bottom: 16px;
+    }
+
+    p{
+        position: absolute;
+        width: 242px;
+        color: #FAFAFA;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 21px; /* 150% */
+        top: 207px;
+        left: 24px;
+    }
+    
+    a{
+        position: absolute;
+        color: #FFF;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px; /* 150% */
+        top: 236px;
+        left: 24px;
+        border-bottom: 1px solid white;
+    }
+    }
+}

@@ -1,0 +1,102 @@
+.reklam-wrapper{
+    margin-top: 140px;
+    display: flex;
+    justify-content: space-between;
+    background: var(--Button, #000);
+    margin-bottom: 81px;
+    height: 500px;
+    margin-bottom: 81px;
+
+    .reklam-left{
+        padding-top: 69px;
+        padding-left: 56px;
+        p:first-child{
+            color: var(--Button1, #0F6);
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 20px; /* 125% */
+            margin-bottom: 32px;
+        }
+
+        h2{
+            width: 453px;
+            color: var(--Text, #FAFAFA);
+            font-size: 48px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 60px; /* 125% */
+            letter-spacing: 1.92px;
+
+        }
+
+        ul{
+            display: flex;
+            gap: 20px;
+            margin-top: 32px;
+            margin-bottom: 40px;
+            width: 82px;
+            height: 82px;
+
+            li{
+                text-align: center;
+                background: white;
+                padding: 14px 17px;
+                border-radius: 100%;
+
+                h3{
+                    color: var(--Text2, #000);
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 600;
+                    margin-top: 10px;
+                    line-height: 20px; /* 125% */
+                }
+
+                p{
+                    font-size: 11px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 18px; /* 163.636% */
+                    width: 48px;
+                }
+            }
+        }
+
+        button{
+            color: var(--Text, #FAFAFA);
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 24px; /* 150% */
+            padding: 16px 48px;
+            border-radius: 4px;
+            background: var(--Button1, #0F6);
+        }
+
+        button:hover{
+            background-color: rgb(5, 112, 48);
+            transition: all 0.1s linear;
+            cursor: pointer;
+        }
+    }
+
+    .reklam-right{
+        position: relative;
+        div{
+            margin-right: 50px;
+            margin-top: 20px;
+            width: 500px;
+            height: 500px;
+            border-radius: 504px;
+            opacity: 0.3;
+            background: #D9D9D9;
+            filter: blur(100px);
+        }
+        img{
+            position: absolute;
+            right: 50px;
+            top: 76px;
+        }
+    }
+}
