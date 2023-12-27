@@ -3249,4 +3249,139 @@ footer {
   color: white;
   transition: all 0.1s linear;
   border: none;
+}
+
+.head-user {
+  display: flex;
+  justify-content: space-between;
+}
+.head-user .p-title {
+  margin-top: 80px;
+}
+.head-user .p-title span:last-child {
+  color: red;
+}
+
+.accaunt-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 140px;
+  gap: 100px;
+}
+.accaunt-wrapper .accaunt-left ul li {
+  margin-bottom: 16px !important;
+}
+.accaunt-wrapper .accaunt-left ul li a {
+  color: var(--Text2, #000);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+}
+.accaunt-wrapper .accaunt-left ul li ul li {
+  margin-left: 35px;
+  opacity: 0.5;
+  margin-bottom: 8px;
+}
+.accaunt-wrapper .accaunt-right {
+  width: 870px;
+}
+.accaunt-wrapper .accaunt-right form {
+  padding: 40px 80px;
+}
+.accaunt-wrapper .accaunt-right form h3 {
+  color: var(--Secondary-2, #DB4444);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px; /* 140% */
+  margin-bottom: 16px;
+}
+.accaunt-wrapper .accaunt-right form div:nth-child(3) {
+  display: flex !important;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+.accaunt-wrapper .accaunt-right form div:nth-child(3) label p {
+  color: var(--Text2, #000);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  margin-bottom: 8px;
+}
+.accaunt-wrapper .accaunt-right form div:nth-child(3) label input {
+  width: 330px;
+  height: 50px;
+  padding: 13px 16px;
+  border: none;
+  background-color: #F5F5F5;
+}
+.accaunt-wrapper .accaunt-right form div:nth-child(2) {
+  display: flex !important;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+.accaunt-wrapper .accaunt-right form div:nth-child(2) label p {
+  color: var(--Text2, #000);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  margin-bottom: 8px;
+}
+.accaunt-wrapper .accaunt-right form div:nth-child(2) label input {
+  width: 330px;
+  height: 50px;
+  padding: 13px 16px;
+  border: none;
+  background-color: #F5F5F5;
+}
+.accaunt-wrapper .accaunt-right form .pasword {
+  margin-bottom: 24px;
+}
+.accaunt-wrapper .accaunt-right form .pasword p {
+  color: var(--Text2, #000);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  margin-bottom: 8px;
+}
+.accaunt-wrapper .accaunt-right form .pasword input {
+  background-color: #F5F5F5;
+  padding: 13px 16px;
+  height: 50px;
+  display: block;
+  width: 100%;
+  margin-bottom: 16px;
+  border: none;
+}
+.accaunt-wrapper .accaunt-right form .accaunt-button {
+  margin-top: 20px;
+  display: flex;
+  gap: 32px;
+  justify-content: flex-end;
+  color: var(--Text, #FAFAFA);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+}
+.accaunt-wrapper .accaunt-right form .accaunt-button button:first-child {
+  width: 80px;
+  height: 56px;
+  cursor: pointer;
+}
+.accaunt-wrapper .accaunt-right form .accaunt-button button:last-child {
+  padding: 16px 0;
+  width: 214px;
+  height: 56px;
+  cursor: pointer;
+}
+.accaunt-wrapper .accaunt-right form .accaunt-button button:hover {
+  background-color: #DB4444;
+  color: white;
+  border: none;
+  transition: all 0.1s linear;
 }/*# sourceMappingURL=style.css.map */
