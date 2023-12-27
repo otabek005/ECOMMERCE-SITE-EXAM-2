@@ -2602,6 +2602,7 @@ footer {
   align-items: center;
   gap: 16px;
   padding: 24px 16px;
+  border: 1px solid black;
 }
 .produkt-wrapper .produkt-right .delevery-wrapper .wrapper--box1 div h4 {
   color: #000;
@@ -2624,6 +2625,7 @@ footer {
   align-items: center;
   gap: 16px;
   padding: 24px 16px;
+  border: 1px solid black;
 }
 .produkt-wrapper .produkt-right .delevery-wrapper .wrapper--box2 div h4 {
   color: #000;
@@ -2792,4 +2794,266 @@ footer {
   font-style: normal;
   font-weight: 400;
   line-height: 26px; /* 130% */
+}
+
+.titlee {
+  opacity: 0.5;
+  color: var(--Text2, #000);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px; /* 150% */
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.cart-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+.cart-wrapper ul:nth-child(1) li:nth-child(1) {
+  color: var(--Text2, #000);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  padding: 24px 40px;
+  margin-bottom: 40px;
+}
+.cart-wrapper ul:nth-child(1) li:nth-child(2) {
+  display: flex;
+  padding: 24px 40px;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 40px;
+  color: #000;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+}
+.cart-wrapper ul:nth-child(1) li:nth-child(2) img {
+  width: 54px;
+  height: 44px;
+}
+.cart-wrapper ul:nth-child(1) li:nth-child(3) {
+  display: flex;
+  padding: 40px 40px;
+  align-items: center;
+  gap: 20px;
+  color: #000;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+}
+.cart-wrapper ul:nth-child(1) li:nth-child(3) img {
+  width: 54px;
+  height: 44px;
+}
+.cart-wrapper ul:nth-child(2) li:nth-child(1) {
+  color: var(--Text2, #000);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  padding: 24px 0;
+  margin-bottom: 40px;
+}
+.cart-wrapper ul:nth-child(2) li:nth-child(2) {
+  color: var(--Text2, #000);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  margin-bottom: 40px;
+  padding: 24px 0;
+}
+.cart-wrapper ul:nth-child(2) li:nth-child(3) {
+  color: var(--Text2, #000);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  padding: 40px 0;
+  margin-top: 60px;
+}
+.cart-wrapper ul:nth-child(3) li:nth-child(1) {
+  color: var(--Text2, #000);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  padding: 24px 0;
+  margin-bottom: 40px;
+}
+.cart-wrapper ul:nth-child(3) li:nth-child(2) {
+  padding: 24px 0;
+  margin-bottom: 40px;
+}
+.cart-wrapper ul:nth-child(3) li:nth-child(2) input {
+  padding: 5px;
+  width: 48px;
+  height: 32px;
+}
+.cart-wrapper ul:nth-child(3) li:nth-child(3) {
+  margin-top: 60px;
+  padding: 24px 0;
+}
+.cart-wrapper ul:nth-child(3) li:nth-child(3) input {
+  padding: 5px;
+  width: 48px;
+  height: 32px;
+}
+.cart-wrapper ul:nth-child(4) {
+  padding: 0 40px;
+}
+.cart-wrapper ul:nth-child(4) li:nth-child(1) {
+  color: var(--Text2, #000);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  padding: 24px 0;
+  margin-bottom: 40px;
+}
+.cart-wrapper ul:nth-child(4) li:nth-child(2) {
+  color: var(--Text2, #000);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  margin-bottom: 40px;
+  padding: 24px 0;
+}
+.cart-wrapper ul:nth-child(4) li:nth-child(3) {
+  color: var(--Text2, #000);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  padding: 40px 0;
+  margin-top: 60px;
+}
+
+.cart-buttons {
+  margin-bottom: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+.cart-buttons button {
+  padding: 16px 40px;
+  color: var(--Text2, #000);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  background: transparent;
+  cursor: pointer;
+}
+.cart-buttons button:hover {
+  transition: all 0.1s linear;
+  background: #DB4444;
+  color: white;
+  border: none;
+}
+
+.toll-wrapper {
+  margin-bottom: 140px;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  gap: 173px;
+}
+.toll-wrapper .toll-left {
+  display: flex;
+  gap: 16px;
+}
+.toll-wrapper .toll-left input {
+  width: 300px;
+  padding: 16px 5px 16px 24px;
+  height: 56px;
+}
+.toll-wrapper .toll-left button {
+  padding: 16px 0px;
+  width: 211px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  height: 56px;
+  cursor: pointer;
+}
+.toll-wrapper .toll-left button:hover {
+  background-color: #DB4444;
+  color: white;
+  border: #DB4444;
+  transition: all 0.1s linear;
+}
+.toll-wrapper .toll-right {
+  width: 470px;
+  height: 324px;
+  padding: 32px 24px;
+  border: 1px solid black;
+}
+.toll-wrapper .toll-right p:nth-child(1) {
+  color: var(--Text2, #000);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px; /* 140% */
+  margin-bottom: 24px;
+}
+.toll-wrapper .toll-right p:nth-child(2) {
+  display: flex;
+  justify-content: space-between;
+  color: var(--Text2, #000);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  padding-bottom: 16px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.499);
+  margin-bottom: 16px;
+}
+.toll-wrapper .toll-right p:nth-child(3) {
+  display: flex;
+  justify-content: space-between;
+  color: var(--Text2, #000);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  padding-bottom: 16px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.499);
+  margin-bottom: 16px;
+}
+.toll-wrapper .toll-right p:nth-child(4) {
+  display: flex;
+  justify-content: space-between;
+  color: var(--Text2, #000);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  padding-bottom: 16px;
+  margin-bottom: 16px;
+}
+.toll-wrapper .toll-right button {
+  display: block;
+  margin: 0 auto;
+  padding: 16px 48px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  height: 56px;
+  cursor: pointer;
+}
+.toll-wrapper .toll-right button:hover {
+  background-color: #DB4444;
+  color: white;
+  transition: all 0.1s linear;
+  border: none;
 }/*# sourceMappingURL=style.css.map */
