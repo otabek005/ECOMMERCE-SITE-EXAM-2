@@ -1,0 +1,110 @@
+.toll-wrapper{
+    margin-bottom: 140px;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    gap: 173px;
+
+    .toll-left{
+        display: flex;
+        gap: 16px;
+        
+        input{
+            width: 300px;
+            padding: 16px 5px 16px 24px;
+            height: 56px;
+
+        }
+        
+        button{
+            padding: 16px 0px;
+            width: 211px;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 24px; /* 150% */
+            height: 56px;
+            cursor: pointer;
+
+            &:hover{
+                background-color: #DB4444;
+                color: white;
+                border: #DB4444;
+                transition: all 0.1s linear;
+            }
+        }
+    }
+
+    .toll-right{
+        width: 470px;
+        height: 324px;
+        padding: 32px 24px;
+        border: 1px solid black;
+
+        p:nth-child(1){
+            color: var(--Text2, #000);
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 28px; /* 140% */
+            margin-bottom: 24px;
+        }
+
+        p:nth-child(2){
+            display: flex;
+            justify-content: space-between;
+            color: var(--Text2, #000);
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 24px; /* 150% */
+            padding-bottom: 16px;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.499);
+            margin-bottom: 16px;
+        }
+        p:nth-child(3){
+            display: flex;
+            justify-content: space-between;
+            color: var(--Text2, #000);
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 24px; /* 150% */
+            padding-bottom: 16px;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.499);
+            margin-bottom: 16px;
+        }
+        p:nth-child(4){
+            display: flex;
+            justify-content: space-between;
+            color: var(--Text2, #000);
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 24px; /* 150% */
+            padding-bottom: 16px;
+            margin-bottom: 16px;
+        }
+
+        button{
+            display: block;
+            margin: 0 auto;
+            padding: 16px 48px;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 24px; /* 150% */
+            height: 56px;
+            cursor: pointer;
+            &:hover{
+                background-color: #DB4444;
+                color: white;
+                transition: all 0.1s linear;
+                border: none;
+                
+            }
+        }
+
+
+    }
+}
