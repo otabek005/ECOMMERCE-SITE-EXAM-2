@@ -255,6 +255,18 @@ footer{
             ul{
                 display: flex;
                 gap: 24px;
+
+                li:hover{
+                    a{
+                        svg{
+                            // fill: aqua;
+                            path{
+                                // stroke: aqua !important;
+                                fill: aqua !important;
+                            }
+                        }
+                    }
+                }
             }
         
     }

@@ -477,6 +477,12 @@ nav .header-bottom .header-bottom--item .header-bottom-user-panel .ul-panel li a
   border-bottom: 1px solid rgba(0, 0, 0, 0.428);
 }
 
+header {
+  position: sticky;
+  top: 0;
+  z-index: 25;
+}
+
 .swiper {
   margin-top: 40px;
   width: 100%;
@@ -1878,6 +1884,9 @@ footer {
 .footer .foter5 ul {
   display: flex;
   gap: 24px;
+}
+.footer .foter5 ul li:hover a svg path {
+  fill: aqua !important;
 }
 
 .intro {
